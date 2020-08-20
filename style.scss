@@ -100,7 +100,7 @@ body {
     text-decoration: none;
   }
 
-  .button {
+  .sign-up > a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -132,10 +132,11 @@ body {
     font-weight: normal;
     font-size: 36px;
   }
-  & button {
+  & .explore-furniture {
     position: absolute;
     top: 543px;
     left: 102px;
+    text-align: center;
     width: 175px;
     height: 50px;
     font-style: normal;
@@ -144,7 +145,13 @@ body {
     border-radius: 4px;
     border: none;
     background: #DAA520;
+    color: #ffffff;
   }
+
+  & .explore-furniture a:link {
+    color: #ffffff;
+  }
+
 }
 
 .group40 {
@@ -379,6 +386,7 @@ body {
   border-radius: 4px;
   border: none;
   background: #DAA520;
+  color: #ffffff;
 }
 
 .fourth-page {
@@ -851,6 +859,7 @@ body {
       width: 355px;
       height: 36px;
       border:  1px solid #DAA520;
+      border-radius: 4px 0 0 4px;
       font-family: 'Nunito', sans-serif;
       font-style: normal;
       font-weight: 500;
@@ -863,6 +872,7 @@ body {
       top: 67px;
       left: 928px;
       background: #DAA520;
+      color: #ffffff;
       border-radius: 0 4px 4px 0;
       border: none;
       width: 120px;
@@ -886,7 +896,7 @@ footer {
   position: absolute;
   top: 4502px;
   width: 1152px;
-  height: 455px;
+  height: 220px;
   
   & .logo-end {
     position: absolute;
@@ -1041,15 +1051,23 @@ footer {
 
 .background-linear {
   position: absolute;
-  left: 644px;
+  left: 0px;
   top: 4270px;
-  // background:repeat;
-  // width: 1152px;
-  // height: 455px;
-  // // background-size: cover;
+  width: 1152px;
+  height: 455px;
+  background-size: cover;
   // background-image: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%),
   // url(images/foot.png);
+  // background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
   z-index: -2;
+
+  & .chair {
+  position: absolute;
+  left: 644px;
+  top: 0px;
+  background:repeat;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  }
   }
 
 small {

@@ -1116,7 +1116,9 @@ footer .info p {
   top: 4270px;
   width: 1152px;
   height: 455px;
-  background-size: cover;
+  background-size: 1152px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(rgba(255, 255, 255, 0))), url(images/foot.png);
+  background-image: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), url(images/foot.png);
   z-index: -2;
 }
 
@@ -1124,9 +1126,7 @@ footer .info p {
   position: absolute;
   left: 644px;
   top: 0px;
-  background: repeat;
-  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(rgba(255, 255, 255, 0)));
-  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  background: repeat none;
 }
 
 small {

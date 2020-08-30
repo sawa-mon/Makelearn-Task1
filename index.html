@@ -10,194 +10,257 @@
   <title>first-task</title>
 </head>
 <body>
-  <div>
-    <header class="nav-menu">
-      <div class="header">
-        <div class="background-pink">
-          <img class="teble" src="images/teble.png" alt="">
-          <img class="hana" src="images/hana-big.svg" alt="">
-        </div>
-        <img class="logo" src="images/logo.svg" alt="">
-        <h1>W O O D I E S</h1>
-        <nav class="navigation">
-          <ul class="main-menu">
-            <li class="home"><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">How it works</a></li>
-            <li><a href="#">Categories</a></li>
-            <li><a href="#">Testimony</a></li>
-            <li class="sign-up"><a href="#">SIGN UP</a></li>
-          </ul>
-        </nav>
+
+  <header class="header">
+    <div class="inner">
+      <div class="header__logo">
+        <a href="#"><img src="images/main-logo.png" alt=""></a>
       </div>
-      <article>
-        <div class="first-page">
-          <h2>This is the <br> Right Place</h2>
-          <p>Are you looking for woodden <br>furniture for your place?</p>
-          <button class="explore-furniture" type="button">Explore Furniture</button>
+      <nav class="nav">
+        <ul class="nav__link">
+          <li><a class="nav__linkItem is-home" href="#">Home</a></li>
+          <li><a class="nav__linkItem" href="#">About Us</a></li>
+          <li><a class="nav__linkItem" href="#">How it works</a></li>
+          <li><a class="nav__linkItem" href="#">Categories</a></li>
+          <li><a class="nav__linkItem" href="#">Testimony</a></li>
+          <li><a class="nav__linkItem is-signUp" href="#">SIGN UP</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="maincontents">
+      <div class="inner">
+        <div class="maincontents__text-link">
+          <div class="maincontents__text">
+            <h2>This is the Right Place</h2>
+            <p>Are you looking for <strong>woodden furniture</strong> for your place?</p>
+          </div>
+          <div class="maincontents__link">
+              <a class="maincontents__linkItem" href="#" type="button">Explore Furniture</a>
+          </div>
         </div>
-      </article>
-    </header>
-    <main>
-      <div class="second-page">
-          <section>
-            <div class="group40">
-              <img src="images/hana-small.svg" alt="">
-              <h2>Who we are</h2>
-              <hr>
-              <h3>ABOUT US</h3>
-              <div class="rectangle5"></div>
-              <img class="salada-bowl" src="images/Wood-Salad-Bowl.png" alt="">
-              <img class="group26" src="images/hana2-big.svg" alt="">
-            </div>
-            <p class="group43-1"><b>WOODIES</b> is the <b>home of<br>modern wooden furniture</b><br></p>
-            <p class="group43-2">the answer to your need for furniture<br>with shapes, sizes and colors.</p>
-            <p class="group44-1">Customized furniture <b>made just for you</b><br></p>
-            <p class="group44-2">Get it eazy to adjust furniture to the shape and size of your dwelling or business.</p>
-            <img class="group44-3" src="images/otama.png" alt="">
-          </section>
+        <div class="maincontents__image">
+          <div class="image is-flower">
+            <img src="images/hana-big.png" alt="">
+          </div>
+          <div class="image is-table">
+            <img src="images/table.png" alt="">
+          </div>
+          <div class="maincontents__backColor-pink"></div>
+        </div>
       </div>
-      <div class="third-page">
-        <section class="group49">
-          <div class="group38">
+    </section>
+    
+    <section class="section about">
+      <div class="inner">
+        <div class="about__title">
+          <img src="images/hana-small.svg" alt="">
+          <h2 class="title-border">Who we are</h2>
+          <h3>ABOUT US</h3>
+        </div>
+        <div class="about__main">
+          <div class="about__mainImage is-left">
+            <img src="images/Wood-Salad-Bowl.png" alt="">
+          </div>
+          <div class="about__mainImage is-left--flower">
+            <img src="images/hana2-big.svg" alt="">
+          </div>
+          <div class="about__mainText is-right">
+            <p class="is-above"><strong>WOODIES</strong> is the <strong>home of modern wooden furniture</strong></p>
+            <p class="is-below">the answer to your need for furniture <br> with shapes, sizes and colors.</p>
+          </div>
+        </div>
+        <div class="about__sub">
+          <div class="about__subText">
+            <p class="about__subText is-above">Customized furniture <strong>made just for you</strong></p>
+            <p class="about__subText is-below">Get it eazy to adjust furniture to the shape and size of your dwelling or business.</p>
+          </div>
+          <div class="about__subImage is-right">
+            <img src="images/otama.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section howit">
+      <div class="inner">
+          <div class="howit__title">
             <img src="images/hana-small.svg" alt="">
-            <h2>How to custom</h2>
-            <hr>
+            <h2 class="title-border">How to custom</h2>
             <h3>HOW IT WORKS</h3>
           </div>
-          <div class="grid">
-            <div class="item">
+          <div class="howit__main is-grid">
+            <div class="grid__item">
               <p class="number">1</p>
-              <img src="images/shop1.png" alt="">
-              <p class="work-name1">Choose Design</p>
+              <div class="item__image">
+                <img src="images/shop1.png" alt="">
+              </div>
+              <p class="item__name">Choose Design</p>
             </div>
-            <div class="item">
+            <div class="grid__item">
               <p class="number">2</p>
-              <img src="images/ruler1.png" alt="">
-              <p class="work-name2">Area measuring</p>
+              <div class="item__image">
+                <img src="images/ruler1.png" alt="">
+              </div>
+              <p class="item__name">Area measuring</p>
             </div>
-            <div class="item">
+            <div class="grid__item">
               <p class="number">3</p>
-              <img src="images/cost1.png" alt="">
-              <p class="work-name3">Budgeting</p>
+              <div class="item__image">
+                <img src="images/cost1.png" alt="">
+              </div>
+              <p class="item__name">Budgeting</p>
             </div>
-            <div class="item">
+            <div class="grid__item">
               <p class="number">4</p>
-              <img src="images/carpenter1.png" alt="">
-              <p class="work-name4">Production</p>
+              <div class="item__image">
+                <img src="images/carpenter1.png" alt="">
+              </div>
+              <p class="item__name">Production</p>
             </div>
-          </div>
-          <button class="get-personalized" type="button">Get Personalized Now</button>
-        </section>
-      </div>
-      <div class="fourth-page">
-        <section>
-          <div class="group39">
-            <img src="images/hana-small.svg" alt="">
-            <h2>What we have</h2>
-            <hr>
-            <h3>CATEGORIES</h3>
-          </div>
-          <div class="grid2">
-            <div class="item2-1">
-              <p>Desk</p>
-              <img class="item2_1" src="images/desk.png" alt="">
-              <button class="button1" type="button"><a href="#">Shop Now</a></button>
-            </div>
-            <div class="item2-2">
-              <p>Chair</p>
-              <img class="item2_2" src="images/chair.png" alt="">
-              <button class="button2" type="button"><a href="#">Shop Now</a></button>
-            </div>
-            <div class="item2-3">
-              <p>Kitchenware</p>
-              <img class="item2_3" src="images/kitchen.png" alt="">
-              <button class="button3" type="button"><a href="#">Shop Now</a></button>
-            </div>
-            <div class="item2-4">
-              <p>Book Shelf</p>
-              <img class="item2_4" src="images/book-shelf.png" alt="">
-              <button class="button4" type="button"><a href="#">Shop Now</a></button>
-            </div>
-            <div class="item2-5">
-              <p>Electronics</p>
-              <img class="item2_5" src="images/Vintage-Radio.png" alt="">
-              <button class="button5" type="button"><a href="#">Shop Now</a></button>
-            </div>
-          </div>
-        </section>
-      </div>
-      <div class="fifth-page">
-        <img src="images/hana-small.svg" alt="">
-        <h2>What they say</h2>
-        <hr>
-        <h3>TESTIMONY</h3>
-          <div id="revew">
-            <div id="js"></div>
-            <img class="group65" src="images/Group65.png" alt="">
-            <img class="group66" src="images/Group66.png" alt="">
-            <div class="box">
-              <textarea class="text" name="comment">みんな大好き!!有名インフルエンサーなどがよくやるTwitterなどで大好評の現金バラマキ企画！分配しちゃいます！300人限定でバナーからTwitterアカウントでコンタクトを取るだけ！今すぐクリック！</textarea>
-              <img class="money" src="images/money.jpg" alt="">
-              <p>money-mon<br>by Monetize-man</p>
-            </div>
-            <div class="slider-bar">
-              <img class="previous" src="images/-Previous.png" alt="">
-              <img class="next" src="images/Next.png" alt="">
-              <img class="slider" src="images/slider-bar.png" alt="">
-            </div>
-          </div>
-      </div>
-    </main>
-      <aside>
-        <div class="sixth-page">
-          <p class="group61"><b>Subscribe to our newsletter</b></p>
-          <p class="group61-2">A monthly digest of the new WOODIES products, hot offers, and <br> resourcees.</p>
-          <div class="subscribe">
-            <input class="email" type="text" placeholder="Your email address">
-            <input class="submit" type="submit" value="Subscribe">
           </div>
         </div>
-      </aside>
-      <hr class="footerline">
-      <footer>
-        <img class="logo-end" src="images/logo.svg" alt="">
-        <h2>W O O D I E S</h2>
-        <div class="info">
-          <p>(012) 8967 453</p>
-          <p>woodies@gmail.com</p>
-          <p>Jakarta.Indonesia</p>
+        <div class="howit__link">
+          <a class="howit__linkItem" href="#" type="button">Get Personalized Now</a>
         </div>
-        <ul class="product">
-          <li class="head"><b>Product</b></li>
-          <li>Furnitures</li>
-          <li>Packages</li>
-          <li>Services</li>
+      </div>
+    </section>
+
+    <section class="section categories">
+      <div class="inner">
+        <div class="categories__title">
+          <img src="images/hana-small.svg" alt="">
+          <h2 class="title-border">What we have</h2>
+          <h3>CATEGORIES</h3>
+        </div>
+        <div class="categories__grid">
+          <div class="grid__growp is-pink">
+            <p class="categories__name">Desk</p>
+            <div class="categories__image is-desk">
+              <img src="images/desk.png" alt="">
+            </div>
+            <div class="buttonArea">
+              <a class="categories__button" href="#">Shop Now</a>
+            </div>
+          </div>
+          <div class="grid__growp is-mustard">
+            <p class="categories__name">Chair</p>
+            <div class="categories__image">
+              <img src="images/chair.png" alt="">
+            </div>
+            <div class="buttonArea">
+              <a class="categories__button" href="#">Shop Now</a>
+            </div>
+          </div>
+          <div class="grid__growp is-blue">
+            <p class="categories__name">Kitchenware</p>
+            <div class="categories__image">
+              <img src="images/kitchen.png" alt="">
+            </div>
+            <div class="buttonArea">
+              <a class="categories__button" href="#">Shop Now</a>
+            </div>
+          </div>
+          <div class="grid__growp is-pink">
+            <p class="categories__name">Book Shelf</p>
+            <div class="categories__image">
+              <img src="images/book-shelf.png" alt="">
+            </div>
+            <div class="buttonArea">
+              <a class="categories__button" href="#">Shop Now</a>
+            </div>
+          </div>
+          <div class="grid__growp is-mustard">
+            <p class="categories__name">Electronics</p>
+            <div class="categories__image">
+              <img src="images/Vintage-Radio.png" alt="">
+            </div>
+            <div class="buttonArea">
+              <a class="categories__button" href="#">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimony">
+      <div class="inner">
+        <div class="testimony__title">
+          <img src="images/hana-small.svg" alt="">
+          <h2 class="title-border">What they say</h2>
+          <h3>TESTIMONY</h3>
+        </div>
+        <div class="testimony__grid">
+          <div class="testimony__image">
+            <img src="images/Group65.png" alt="">
+          </div>
+          <div class="testimony__image">
+            <img src="images/Group66.png" alt="">
+          </div>
+          <!-- JS-INPORT Area -->
+        </div>
+      </div>
+    </section>
+    
+    <section class="section subscribe">
+      <div class="inner">
+        <div class="subscribe__title">
+          <p class="title is-above"><strong>Subscribe to our newsletter</strong></p>
+          <p class="title is-below">A monthly digest of the new WOODIES products, hot offers, and resourcees.</p>
+        </div>
+        <div class="subscribe__addForm">
+          <input class="addForm email" type="text" placeholder="Your email address">
+          <input class="addForm submit" type="submit" value="Subscribe">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="inner">
+      <div class="footer__block">
+        <div class="footer__logo">
+          <a href="#"><img src="images/main-logo.png" alt=""></a>
+        </div>
+        <ul class="footer__info">
+          <li class="footer__list"><a class="footer__info is-link" href="tel:012-8967-453">(012) 8967 453</a></li>
+          <li class="footer__list"><a class="footer__info is-link" href="mailto:woodies@gmail.com">woodies@gmail.com</a></li>
+          <li class="footer__list"><a class="footer__info is-link" href="https://goo.gl/maps/b7sJcDfUxb24T1Xy6" target="_blank" rel="noopener noreferrer">Jakarta.Indonesia</a></li>
         </ul>
-        <ul class="resources">
-          <li class="head"><b>Resources</b></li>
-          <li>Blog</li>
-          <li>FAQs</li>
-          <li>Contact Us</li>
+        <ul class="footer__product">
+          <li class="footer__list"><a class="head is-link" href="#"><strong>Product</strong></a></li>
+          <li class="footer__list"><a class="is-link" href="#">Furnitures</a></li>
+          <li class="footer__list"><a class="is-link" href="#">Packages</a></li>
+          <li class="footer__list"><a class="is-link" href="#">Services</a></li>
         </ul>
-        <ul class="company">
-          <li class="head"><b>Company</b></li>
-          <li>About Us</li>
-          <li>Jobs</li>
-          <li>Our Team</li>
+        <ul class="footer__resources">
+          <li class="footer__list"><a class="head is-link" href="#"><strong>Resources</strong></a></li>
+          <li class="footer__list"><a class="is-link" href="#">Blog</a></li>
+          <li class="footer__list"><a class="is-link" href="#">FAQs</a></li>
+          <li class="footer__list"><a class="is-link" href="#">Contact Us</a></li>
         </ul>
-        <ul class="follow">
-          <li class="head"><b>Follow Us</b></li>
-          <li>Facebook</li>
-          <li>Instagram</li>
-          <li>Twitter</li>
+        <ul class="footer__company">
+          <li class="footer__list"><a class="head is-link" href="#"><strong>Company</strong></a></li>
+          <li class="footer__list"><a class="is-link" href="#">About Us</a></li>
+          <li class="footer__list"><a class="is-link" href="#">Jobs</a></li>
+          <li class="footer__list"><a class="is-link" href="#">Our Team</a></li>
         </ul>
-      </footer>
-    <div class="background-linear">
-      <img class="chair" src="images/foot.png" alt="">
-    </div><!-- #background -->
-    <small> &copy; 2020 WOODIES</small>
-  </div><!-- home -->
+        <ul class="footer__follow">
+          <li class="footer__list"><a class="head is-link" href="#"><strong>Follow Us</strong></a></li>
+          <li class="footer__list"><a class="is-link" href="#">Facebook</a></li>
+          <li class="footer__list"><a class="is-link" href="#">Instagram</a></li>
+          <li class="footer__list"><a class="is-link" href="#">Twitter</a></li>
+        </ul>
+        <div class="footer__background">
+          <img src="images/foot.png" alt="">
+        </div><!-- #background -->
+      </div>
+    </div>
+  </footer>
+
+  <small class="small"> &copy; 2020 WOODIES</small>
   <script src="index.js"></script>
 </body>
 </html>

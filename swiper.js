@@ -2,6 +2,12 @@ let mySwiper = new Swiper ('.swiper-container', {
   // 以下オプション
   loop: true,
  
+  paginationClickable: true,
+  speed: 1000,
+  autoplay: 3000,
+  spaceBetween: 10,
+  effect: 'coverflow',
+
 //以下自動再生時
 //   autoplay: {
 //     delay: 1000,

@@ -182,7 +182,7 @@ a {
     font-size: 36px;
     line-height: 49px;
     margin-left: 8px;
-    padding-right: 50px;
+    padding-right: 330px;
   }
 
   & .title-border::after {
@@ -193,15 +193,7 @@ a {
     width: 316px;
     height: 1px;
     background-color: $cBlack;
-  }
-
-  & .title-border::after {
     left: 220px;
-  }
-
-  & .title-border {
-    display: inline-block;
-    padding-right: 330px;
   }
 
   & h3 {
@@ -332,7 +324,7 @@ a {
     font-size: 36px;
     line-height: 49px;
     margin-left: 8px;
-    padding-right: 10px;
+    padding-right: 83px;
   }
   
   & .title-border::after {
@@ -343,15 +335,7 @@ a {
     width: 65px;
     height: 1px;
     background-color: $cBlack;
-  }
-  
-  & .title-border::after {
     left: 270px;
-  }
-  
-  & .title-border {
-    display: inline-block;
-    padding-right: 83px;
   }
   
   & h3 {
@@ -451,15 +435,7 @@ a {
     width: 202px;
     height: 1px;
     background-color: $cBlack;
-  }
-  
-  & .title-border::after {
     left: 259px;
-  }
-  
-  & .title-border {
-    display: inline-block;
-    padding-right: 220px;
   }
   
   & h3 {
@@ -571,7 +547,7 @@ a {
     font-size: 36px;
     line-height: 49px;
     margin-left: 8px;
-    padding-right: 10px;
+    padding-right: 255px;
   }
   
   & .title-border::after {
@@ -582,15 +558,7 @@ a {
     width: 240px;
     height: 1px;
     background-color: $cBlack;
-  }
-  
-  & .title-border::after {
     left: 258px;
-  }
-  
-  & .title-border {
-    display: inline-block;
-    padding-right: 255px;
   }
   
   & h3 {
@@ -616,7 +584,7 @@ a {
 }
 
 
-//JS-INPORT
+//JS-SWIPER
 .swiper-container {
   border: 1px solid $cBlue;
   border-radius: 0 80px 0 80px;
@@ -647,7 +615,6 @@ a {
   justify-content: center;
 }
 
-
 .swiper-button-prev,
 .swiper-button-next {
   position: absolute;
@@ -656,8 +623,6 @@ a {
   height: 96px;
   margin-top: -43px;
 }
-
-
 
 .swiper-button-prev:before {
   content: url(images/Arrow.svg);
@@ -691,8 +656,7 @@ a {
   border-radius: 8px;
   margin: 8px;
 }
-
-
+//end
 
 .section.subscribe {
   position: relative;
@@ -702,7 +666,6 @@ a {
   height: 174px;
   margin: 0 auto;
 }
-
 
 .subscribe__title {
   position: absolute;
@@ -767,9 +730,6 @@ a {
   height: 1px;
   background-color: $cDark-White;
   margin: auto;
-}
-
-.footer::before {
   left: -115px;
 }
 
@@ -857,4 +817,3 @@ a {
   color: $clight-Gray;
   margin: 0 auto;
 }
-

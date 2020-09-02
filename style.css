@@ -185,7 +185,7 @@ a {
   font-size: 36px;
   line-height: 49px;
   margin-left: 8px;
-  padding-right: 50px;
+  padding-right: 330px;
 }
 
 .about__title .title-border::after {
@@ -196,15 +196,7 @@ a {
   width: 316px;
   height: 1px;
   background-color: #000;
-}
-
-.about__title .title-border::after {
   left: 220px;
-}
-
-.about__title .title-border {
-  display: inline-block;
-  padding-right: 330px;
 }
 
 .about__title h3 {
@@ -344,7 +336,7 @@ a {
   font-size: 36px;
   line-height: 49px;
   margin-left: 8px;
-  padding-right: 10px;
+  padding-right: 83px;
 }
 
 .howit__title .title-border::after {
@@ -355,15 +347,7 @@ a {
   width: 65px;
   height: 1px;
   background-color: #000;
-}
-
-.howit__title .title-border::after {
   left: 270px;
-}
-
-.howit__title .title-border {
-  display: inline-block;
-  padding-right: 83px;
 }
 
 .howit__title h3 {
@@ -472,15 +456,7 @@ a {
   width: 202px;
   height: 1px;
   background-color: #000;
-}
-
-.categories__title .title-border::after {
   left: 259px;
-}
-
-.categories__title .title-border {
-  display: inline-block;
-  padding-right: 220px;
 }
 
 .categories__title h3 {
@@ -617,7 +593,7 @@ a {
   font-size: 36px;
   line-height: 49px;
   margin-left: 8px;
-  padding-right: 10px;
+  padding-right: 255px;
 }
 
 .testimony__title .title-border::after {
@@ -628,15 +604,7 @@ a {
   width: 240px;
   height: 1px;
   background-color: #000;
-}
-
-.testimony__title .title-border::after {
   left: 258px;
-}
-
-.testimony__title .title-border {
-  display: inline-block;
-  padding-right: 255px;
 }
 
 .testimony__title h3 {
@@ -827,9 +795,6 @@ a {
   height: 1px;
   background-color: #C4C4C4;
   margin: auto;
-}
-
-.footer::before {
   left: -115px;
 }
 

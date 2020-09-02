@@ -705,6 +705,51 @@ a {
           justify-content: center;
 }
 
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  background-image: none;
+  width: 120px;
+  height: 96px;
+  margin-top: -43px;
+}
+
+.swiper-button-prev:before {
+  content: url(images/Arrow.svg);
+  font-size: 14px;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.swiper-button-next:before {
+  content: url(images/Arrow.svg);
+  font-size: 14px;
+}
+
+.swiper-outer {
+  position: absolute;
+  top: 169px;
+  left: 560px;
+  width: 400px;
+  height: 280px;
+}
+
+.swiper-pagination {
+  position: relative;
+  top: 164px;
+  left: 50%;
+  right: 50%;
+  width: 184px;
+}
+
+.swiper-pagination-bullet {
+  display: inline-block;
+  width: 40px;
+  height: 8px;
+  border-radius: 8px;
+  margin: 8px;
+}
+
 .section.subscribe {
   position: relative;
   top: 597px;

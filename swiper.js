@@ -2,6 +2,14 @@ let mySwiper = new Swiper ('.swiper-container', {
   // 以下オプション
   loop: true,
  
+//以下自動再生時
+//   autoplay: {
+//     delay: 1000,
+//     stopOnLastSlide: false,
+//     disableOnInteraction: false,
+//     reverseDirection: false
+// },
+ 
   //ページネーション表示の設定
   pagination: { 
     el: '.swiper-pagination', //ページネーションの要素
